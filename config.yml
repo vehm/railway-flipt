@@ -1,0 +1,5 @@
+storage:
+    default:
+        backend:
+            type: local
+            path: /var/opt/flipt
