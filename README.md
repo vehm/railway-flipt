@@ -2,6 +2,8 @@
 
 An extended Flipt Dockerfile for running Flipt v2 in Railway local-first (Git-native) on a persistent volume.
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/Okc6ST?referralCode=_lCpBL&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ## What this is
 
 [Flipt](https://flipt.io) is an open-source feature flag and A/B testing platform. This repo extends the official Flipt v2 image to work cleanly on Railway with a persistent volume for local (Git-native) storage. It does not provision infrastructure on its own. The persistent volume must be added in Railway after deploying the service. Once mounted at `/var/opt/flipt`, Flipt will use it for all local storage (flags, segments, rules, etc.).
